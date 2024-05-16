@@ -1,4 +1,4 @@
-//SINGLE INHERITENCE
+//SINGLE INHERITANCE
 #include<iostream>
 using namespace std;
 class Sum
