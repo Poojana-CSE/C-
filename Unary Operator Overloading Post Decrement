@@ -1,0 +1,30 @@
+//Unary Operator Overloading Post Decrement
+#include<iostream>
+using namespace std;
+class Example
+{
+private:
+    int x;
+public:
+    Example(int a)
+    {
+        x=a;
+    }
+    void operator -()
+    {
+        x--;
+    }
+    void Display()
+    {
+        cout<<x;
+    }
+};
+int main()
+{
+    Example e(2);
+    e.Display();
+    -e;
+    cout<<"\n";
+    e.Display();
+    return 0;
+}
